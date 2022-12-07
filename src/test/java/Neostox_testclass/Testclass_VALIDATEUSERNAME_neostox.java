@@ -18,7 +18,9 @@ import Neostox_utilityclass.Utilityclass_neostox;
 @Listeners(Neostox_Listeners.Listener.class)
 public class Testclass_VALIDATEUSERNAME_neostox extends baseclass_neostox{
 Neostoxpomclass1_LOGINPAGE login;
+
 Neostoxpomclass2_PASSWORDPAGE password;
+
 Neostoxpomclass3_HOMEPAGE homepage;
   @BeforeClass
   public void launchneostox() throws IOException {
