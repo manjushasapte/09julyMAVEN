@@ -48,6 +48,14 @@ public static void scrollintoview(WebDriver driver,WebElement element)
 	JavascriptExecutor js=(JavascriptExecutor)driver;	
 	js.executeScript("arguments[0].scrollIntoView()", element)	;
 	Reporter.log("scrolling to element..",true);
-	}}
+	}
+	public static void scrollintoview(WebDriver driver,WebElement element,int a) 
+
+{
+	JavascriptExecutor js=(JavascriptExecutor)driver;	
+	js.executeScript("arguments[0].scrollIntoView()", element)	;
+	Reporter.log("scrolling to element..",true);
+	}
+}
 
 
